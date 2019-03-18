@@ -27,8 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
-#DEBUG = os.environ.get('django_debug', '') != 'False'
-DEBUG  = False
+DEBUG = os.environ.get('django_debug', '') != 'False'
 
 ALLOWED_HOSTS = [
     'stormy-escarpment-47926.herokuapp.com','127.0.0.1'
